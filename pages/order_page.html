@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>YOURpizza</title>
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Nanum+Pen+Script" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <link rel="stylesheet" type="text/css" href="../style/style_order.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="navbaritem"><a href="../index.html">Home</a></div>
+            <div class="navbaritem"><a href="menu_page.html">Menu</a></div>
+            <div class="navbaritem"><a href="#">Order</a></div>
+            <div class="navbaritem"><a href="contacts.html">About us</a></div>
+        </div>
+        <img src="../img/pizza21.jpg" alt="">
+        <div class="orderform">
+            <div class="inorderform">
+                <form action="" name="form1">
+                    <div class="order1">
+                        <p>Choose pizza</p>
+                        <select name="pizzatype">
+                            <option value="" selected>Choose...</option>
+                            <option value="Margherita">Margherita</option>
+                            <option value="Carbonara">Carbonara</option>
+                            <option value="Americana">Americana</option>
+                            <option value="Parmigiana">Parmigiana</option>
+                            <option value="Capricciosa">Capricciosa</option>
+                        </select>
+                        <p>Add topping</p>
+                        <input type="checkbox" name="addMozzarella" value="" id="topping1"><label for="topping1">
+                            Mozzarella</label><br>
+                        <input type="checkbox" name="addMushrooms" value="" id="topping2"><label for="topping2">
+                            Mushrooms</label><br>
+                        <input type="checkbox" name="addHam" value="" id="topping3"><label for="topping3">
+                            Ham</label><br>
+                        <input type="checkbox" name="addPepperoni" value="" id="topping4"><label for="topping4">
+                            Pepperoni</label><br>
+                        <input type="checkbox" name="addSausage" value="" id="topping5"><label for="topping5">
+                            Sausage</label><br>
+                        <input type="checkbox" name="addBacon" value="" id="topping6"><label for="topping6">
+                            Bacon</label><br>
+                        <input type="checkbox" name="addolives" value="" id="topping7"><label for="topping7"> Black
+                            olives</label><br>
+                        <input type="checkbox" name="addpeppers" value="" id="topping8"><label for="topping8"> Green
+                            peppers</label><br>
+                    </div>
+                    <div>
+                        <div class="order2">
+                            <p>Choose the size</p>
+                            <input type="radio" name="pizzasize" value="s" id="pizzasize1"><label for="pizzasize1">
+                                Small</label>
+                            <input type="radio" name="pizzasize" value="m" id="pizzasize2"><label for="pizzasize2">
+                                Medium</label>
+                            <input type="radio" name="pizzasize" value="l" id="pizzasize3"><label for="pizzasize3">
+                                Big</label>
+
+                            <p>Quantity</p>
+                            <select name="quantity" id="q">
+                                <option selected value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                        <div class="order-cont">
+                            <label>Name</label><br>
+                            <input type="text" name="name" value="" required><br>
+                            <label>Phone</label><br>
+                            <input type="text" name="phone" value="" required><br>
+                            <label>Address</label> <br>
+                            <input type="text" name="address" value="" required><br>
+                            <input type="submit" value="Submit" id="formsubmit" />
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container>img {
+    opacity: 0.2;
+}
+
+.menuelem {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    top: 120px;
+    overflow: hidden;
+}
+
+.menuinnerelem {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.menu {
+    float: left;
+    width: 50%;
+}
+
+.menu>img {
+    width: 250px;
+    margin: 0 auto;
+    float: left;
+}
+
+.menu>p {
+    padding-left: 255px;
+    font-size: 20px;
+}
